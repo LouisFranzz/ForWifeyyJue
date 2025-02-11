@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Wifey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('Tulips.avif');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            opacity: 0.95;
+        }
+        header {
+            background: linear-gradient(to right, #ff7eb3, #ffb3ff);
+            text-align: center;
+            padding: 20px;
+            font-family: 'Pixel', sans-serif;
+            font-size: 2.5em;
+            color: #fff;
+        }
+        .photo-section {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            flex-wrap: wrap;
+        }
+        .photo {
+            display: flex;
+            align-items: center;
+            margin: 15px;
+            background-color: rgba(255, 255, 255, 0.7); /* Transparent background for photos */
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .photo img {
+            width: 168px;
+            height: 175px; /* Ensure vertical images */
+            margin-right: 20px; /* Space between image and text */
+            border-radius: 5px;
+            object-fit: cover;
+        }
+        .question-section {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #ff9999;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+            transition: transform 0.3s;
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #ff4c4c; /* Darker shade on hover */
+        }
+        .music-player {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px auto;
+            width: 80%;
+        }
+        .volume-control {
+            margin-top: 10px;
+        }
+        .video-container {
+        position: relative;
+        margin: 20px auto;
+        width: 80%;
+        max-width: 600px;
+        border-radius: 15px;
+        overflow: hidden;
+        animation: pulse 2s infinite;
+    }
+    .video-container video {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+    .flower-border {
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        right: -10px;
+        bottom: -10px;
+        z-index: -1;
+        background-image: url('Daisy_Bg.png');
+        background-size: cover;
+        opacity: 0.5;
+        border-radius: 15px;
+    }
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.02); }
+        100% { transform: scale(1); }
+    }
+    .lyrics{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>For My Wifey Jue🌷</h1>
+</header>
+
+<main>
+    <!-- Photo Section -->
+    <div class="photo-section">
+        <div class="photo">
+            <img src="Bby Pic8.jpg" alt="Photo 1">
+            <div>
+                <p>"My night has become a sunny dawn because of you☀️"<br>-Ibn Abbad.</p>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="Bby Pic2.jpg" alt="Photo 2">
+            <div>
+                <p>"Our love cannot be measured,it just is💌."<br>-Jhon Paul Stevens.</p>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="Bby Pic3.jpg" alt="Photo 3">
+            <div>
+                <p>"I would find you in any lifetime💞"<br>-Kayne West</p>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="Bby Pic4.jpg" alt="Photo 4">
+            <div>
+                <p>"I like you very much.Just as you are💗"<br>-Bridget Jones' Diary</p>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="Bby Pic5.jpg" alt="Photo 5">
+            <div>
+                <p>"So, I love you because<br> the entire universe conspired to help me find you🫀."<br>-Paulo Coehlo.</p>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="Bby pic7.jpg" alt="Photo 6">
+            <div>
+                <p>"I've never had a moment's doubt. I love you.<br> I believe in you completely🌸."<br>-Ian McEwan.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Love Question -->
+    <div class="question-section">
+        <h2>Do you love me?</h2>
+        <button id="yesButton">Yes</button>
+        <button id="noButton">No</button>
+    </div>
+
+    <!-- Music Player Section -->
+    <div class="music-player">
+        <h2>Now Playing: Love Story -  Taylor Swift</h2>
+        <div class="video-container">
+            <video controls>
+                <source src="LoveStory.mp4" type="video/mp4">
+            </video>
+            <div class="flower-border"></div>
+        </div>
+        <div class="lyrics">
+            <h4>Lyrics:</h4>
+            <p>
+            
+We were both young when I first saw you<br>
+I close my eyes and the flashback starts<br>
+I'm standin' there<br>
+On a balcony in summer air<br>
+See the lights, see the party, the ball gowns<br>
+See you make your way through the crowd<br>
+And say, "Hello"<br>
+Little did I know<br>
+That you were Romeo, you were throwin' pebbles<br>
+And my daddy said, "Stay away from Juliet"<br>
+And I was cryin' on the staircase<br>
+Beggin' you, "Please don't go," and I said<br>
+Romeo, take me somewhere we can be alone<br>
+I'll be waiting, all there's left to do is run<br>
+You'll be the prince and I'll be the princess<br>
+It's a love story, baby, just say, "Yes"<br>
+So I sneak out to the garden to see you<br>
+We keep quiet, 'cause we're dead if they knew<br>
+So close your eyes<br>
+Escape this town for a little while, oh oh<br>
+'Cause you were Romeo, I was a scarlet letter<br>
+And my daddy said, "Stay away from Juliet"<br>
+But you were everything to me<br>
+I was beggin' you, "Please don't go," and I said<br>
+Romeo, take me somewhere we can be alone<br>
+I'll be waiting, all there's left to do is run<br>
+You'll be the prince and I'll be the princess<br>
+It's a love story, baby, just say, "Yes"<br>
+Romeo, save me, they're tryna tell me how to feel<br>
+This love is difficult, but it's real<br>
+Don't be afraid, we'll make it out of this mess<br>
+It's a love story, baby, just say, "Yes"<br>
+Oh, oh<br>
+I got tired of waiting<br>
+Wonderin' if you were ever comin' around<br>
+My faith in you was fading<br>
+When I met you on the outskirts of town, and I said<br>
+Romeo, save me, I've been feeling so alone<br>
+I keep waiting for you, but you never come<br>
+Is this in my head? I don't know what to think<br>
+He knelt to the ground and pulled out a ring<br>
+And said, "Marry me, Juliet<br>
+You'll never have to be alone<br>
+I love you and that's all I really know<br>
+I talked to your dad, go pick out a white dress<br>
+It's a love story, baby, just say, "Yes"<br>
+Oh, oh, oh<br>
+Oh, oh, oh, oh<br>
+'Cause we were both young when I first saw you<br>
+            </p>
+        </div>
+    </div>
+</main>
+
+<script>
+    const yesButton = document.getElementById('yesButton');
+    const noButton = document.getElementById('noButton');
+
+    yesButton.addEventListener('click', function() {
+        alert("Congratulations 🎉, Now you are my wife. I will take responsibility for your entire life. Please marry me.\nYour Husband (Linn).");
+    });
+
+    noButton.addEventListener('click', function() {
+        alert("Oh no! 😢");
+    }); 
+</script>
+
+</body>
+</html>
